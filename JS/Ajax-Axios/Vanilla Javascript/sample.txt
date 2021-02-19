@@ -1,0 +1,7 @@
+db.posts.update({salary :"twenty crores"},
+{
+     designation : "CEO"
+},
+{
+     upsert:true
+})

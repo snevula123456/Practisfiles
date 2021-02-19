@@ -1,0 +1,33 @@
+.Nav {
+     background-color: #6b1c6b;
+}
+.Nav h2 {
+     color:white;
+}
+
+.Nav ul {
+margin : 0;
+height: 60px;
+}
+.Nav img {
+     width: 50px;
+     height: 50px;
+     /* display: flex; */
+     margin-left: 1rem;
+     border-radius: 50%;
+     margin-top: 4.5px;
+     justify-content: center;
+     align-items: center;
+     /* display: inline; */
+     float: left;
+     
+}
+.Nav a {
+     display: inline;
+     padding: 1.2rem;
+     float: right;
+     color: white;
+     margin-right: 1rem;
+     list-style-type: none;
+     font-family: 'Kumbh Sans', sans-serif;
+}

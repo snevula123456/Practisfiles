@@ -1,0 +1,29 @@
+
+(function executeRule(current, previous /*null when async*/) {
+
+var gr=new GlideRecord('incident');
+gr.initialize();
+var impact = gr.get('impact');
+var urgency = gr.get('urgency');
+var category = gr.get('category');
+var short_description = gr.get('short_description');
+var assigned = gr.get('assigned_to');
+
+request.setEndpoint('https://sf32eiyem100.us.iws.cloud.com/api/webhook-listener/fe869567-8510-45a9-9529-a8a0fbd7fe64/a4f3902b-46b1-43d5-8274-69b3f0110a22');
+request.setHttpMethod('POST');
+request.setRequestHeader("Accept","application/json");
+request.setRequestHeader('Content-Type','application/json');
+request.setRequestBody(
+     "{
+          "impact" : "+current.impact+",
+          "urgency" : "+current.urgency+",
+          "category" : "+current.category+",
+          "assigned" : "+current.assigned"
+     }");
+var response = request.execute();
+gs.log(response.getBody());
+
+})(current, previous);
+
+
+

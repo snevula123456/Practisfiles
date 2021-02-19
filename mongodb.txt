@@ -1,0 +1,27 @@
+db.posts.insert({
+     title: "New things in mongodb",
+     designation : "Software developer"
+})
+
+db.posts.insertMany(
+     [
+          {
+              title: "New things in mongodb",
+              designation : "Software developer",
+              salary : "Company nobs" 
+          },
+          {
+          title: "New things in mongodb",
+          designation : "Software developer",
+          Skills : "ReactJS"
+          }
+          
+     ]
+)
+
+db.posts.find().forEach(
+     function(doc) {
+          print("title :" +doc.title)
+     }
+)
+

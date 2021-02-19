@@ -1,0 +1,38 @@
+.Blog ul {
+  display: block;
+  margin: 0px;
+}
+.Blog li {
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+  text-align: center;
+}
+
+.Blog a {
+  font-weight: bold;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.Blog a:hover,
+.Blog a:active {
+  padding: 10px;
+  color: orange;
+}
+
+.Blog .active {
+  padding: 10px;
+  color: orange;
+}
+.Blog {
+  margin: 20px;
+}
+.Section {
+  margin: 20px;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

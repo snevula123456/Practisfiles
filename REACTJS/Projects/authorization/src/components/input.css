@@ -1,0 +1,11 @@
+/* .Input {
+  align-items: center;
+  width: 50%;
+  font-family: "Raleway", sans-serif;
+}
+.Input label {
+  font-family: "Raleway", sans-serif;
+} */
+.Input p {
+  color: red;
+}

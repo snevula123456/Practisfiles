@@ -1,0 +1,19 @@
+.Login {
+  /* background-image: url("../../wesley-cordeiro-5chl16Mct4k-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; */
+  width: 400px;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+}
+.Login h2 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+.Login button {
+  margin: auto;
+}
+.Login a {
+  margin: auto;
+}
