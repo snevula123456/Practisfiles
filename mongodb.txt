@@ -25,3 +25,12 @@ db.posts.find().forEach(
      }
 )
 
+// var output = []
+
+for({
+     cons res = JSON.pars(res from the http)
+     output.push(res)
+})
+
+res send(output)
+
