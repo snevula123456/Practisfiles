@@ -1,0 +1,5 @@
+export const p1 = {
+    id: 12,
+    name: "Testing today from testing file",
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiVGVzdC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL1Rlc3QudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBS0EsTUFBTSxDQUFDLE1BQU0sRUFBRSxHQUFPO0lBQ3JCLEVBQUUsRUFBRSxFQUFFO0lBQ04sSUFBSSxFQUFFLGlDQUFpQztDQUN2QyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiaW50ZXJmYWNlIFRUIHtcblx0aWQ6IE51bWJlcjtcblx0bmFtZTogU3RyaW5nO1xufVxuXG5leHBvcnQgY29uc3QgcDE6IFRUID0ge1xuXHRpZDogMTIsXG5cdG5hbWU6IFwiVGVzdGluZyB0b2RheSBmcm9tIHRlc3RpbmcgZmlsZVwiLFxufTtcbiJdfQ==
